@@ -14,7 +14,7 @@ const Testimonials = () => {
                 Todo lo que necesitas para aceptar pagos con tarjeta y hacer crecer tu negocio en cualquier parte del planeta.
             </p>
         </div>
-        <div className='flex flex-wrap sm:justify-start w-full relative z-[1] mr-0 mt-5'>
+        <div className='flex flex-wrap sm:justify-start w-full relative z-[1] mr-0 mt-5 gap-[6%]'>
             {
                 feedback.map((feedback) => {
                     return(
